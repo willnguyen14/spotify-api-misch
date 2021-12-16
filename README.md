@@ -2,15 +2,15 @@
 ![Logo](https://www.lagreektheatre.com/assets/img/TomMisch_1300x620-948b221974.jpg)
 
 
-# Spotify Analysis: Tom Misch
+# Spotify Analysis on Tom Misch: Project Overview
 
-- Created multi-line plot that illustrates how Tom Misch's music has changed with each album and single release on Spotify.
 - Data accessed and extracted from the Spotify Web API using the Spotipy library.
-
+- Cleaned data and explored correlations between variables.
+- Created multi-line plot that illustrates how Tom Misch's music has changed with each album and single release on Spotify.
 
 ## Code and Resources Used
 
-**Python Version:** 3.7
+**Python Version:** 3.9.9
 
 **Packages:** spotipy, time, pandas, numpy, seaborn, matplotlib
 
@@ -23,7 +23,7 @@
 **Library Documentation:** [Spotipy](https://spotipy.readthedocs.io/en/2.9.0/#/)
 ## API Data Extraction
 
-Used the Spotify API article as a guide to extract information on 122 of Tom Misch's tracks on Spotify. For each track, we uncovered the following:
+Used the Spotify API article as a guide to extract information on 123 of Tom Misch's tracks on Spotify. For each track, we uncovered the following:
 - Track ID
 - Track Name
 - Duration of Track (Milliseconds)
@@ -63,4 +63,7 @@ Analyzed data to explore relationships between columns and prepared the specific
 - Aggregated the rows to find each columns' mean by album
 - Converted those averages into percentages so that percent change over time can be visualized.
 ## Screenshots
+![Correlations](correlations.jpg)
 
+4th visual out of a series of 4 visuals that illustrates the progression of change throughout Tom Misch's career.
+![LinePlot](multi_line_plot.jpg)
